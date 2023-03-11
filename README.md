@@ -21,33 +21,60 @@
 <br>
 <br>
 
-## Introduction
+## 📝 Introduction
 This repository contains Matlab code for a multidimensional Newton method, a numerical optimization algorithm that finds the minimum of a scalar function of multiple variables. The algorithm works by iteratively solving a system of linear equations derived from the function's Hessian matrix and gradient vector.
 
 <br>
 
-## Requirements
+## 🛠️ Requirements
 The code in this repository is written in Matlab, and requires no additional toolboxes.
 
 <br>
 
-## Usage
+## 💡 Usage
+Just open the `testing.m` file in the editor and hit the run button. In the terminal you will get the results of the example inputs. 
+If you want to use your own function, here is an example of another function file and a Jacobian matrix file that you can use as a guide for the structure (the Jacobian matrix is optional because the file `mynewton.m` approximates it numerically if no jacobi matrix is supplied):
+<br>
+Function file:
+```matlab
+  function [result] = gleichungssystem1_1b(x)
+
+    f1 = -cos(x(1))/81 + (x(2))^2/9 + sin(x(3))/3 - x(1); 
+    f2 = sin(x(1))/3 + cos(x(3))/3 - x(2); 
+    f3 = -cos(x(1))/9 + x(2)/3 + sin(x(3))/6 - x(3);
+
+    result = [f1; f2; f3];
+  end
+```
+Jacobian matrix file:
+```matlab
+  function [J] = jacobi1(x)
+
+    J = [sin(x(1))/81-1, 2*x(2)/9, ...
+        cos(x(3))/3; 
+        cos(x(1))/3, -1, ...
+        -sin(x(3))/3;
+        sin(x(1))/9, 1/3, ...
+        cos(x(3))/6-1];
+
+  end
+``
 
 
 <br>
 
-## Example Function
-The repository includes an example function in the functions directory. The function is the so called <a href="https://en.wikipedia.org/wiki/Rosenbrock_function" target="_blank">Rosenbrock function</b></u></a>
+## 🗂️ Example Function
+The repository includes an example function in the `rosenbrock.m` file. The function is the so called <a href="https://en.wikipedia.org/wiki/Rosenbrock_function" target="_blank">Rosenbrock function</b></u></a>
 
 <br>
 
-## You may also like...
+## 🧡 You may also like...
 
 - [FlappyBird AI](https://github.com/LeonM789/FlappyBirdAI.git) - A neural network in Python
 
 <br>
 
-## License
+## ⚖️ License
 
 This code is released under the MIT License.
 
