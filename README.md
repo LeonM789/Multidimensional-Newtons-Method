@@ -22,7 +22,7 @@
 <br>
 
 ## 📝 Introduction
-This repository contains Matlab code for a multidimensional Newton method, a numerical optimization algorithm that finds the minimum of a scalar function of multiple variables. The algorithm works by iteratively solving a system of linear equations derived from the function's Hessian matrix and gradient vector.
+This repository contains Matlab code for a More-Dimensional Newton's Method, a numerical optimization algorithm. The More-Dimensional Newton's Method is an iterative algorithm that uses the Jacobian matrix to approximate the root of a system of non-linear equations in multiple dimensions. It updates the guess for the root by solving a linear system of equations at each iteration until convergence is achieved.
 
 <br>
 
