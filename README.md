@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://leonmarx.de"><img src="https://leonmarx.de/wp-content/uploads/2022/10/69519963-1D46-425F-81EA-E60863D7BD47_1_201_a.jpeg" alt="Markdownify" width="200"></a>
+  <a href="https://leonmarx.de"><img src="https://leonmarx.de/other_pictures/github_logo.jpeg" alt="Markdownify" width="200"></a>
   <br>
   Multidimensional Newtons Method
   <br>
@@ -8,7 +8,7 @@
 
 <h4 align="center"><b><u>A numerical optimization algorithm.</h4>
 
-
+<!---
 <p align="center">
   <a href="#introduction">Introduction</a> •
   <a href="#Requirements">Requirements</a> •
@@ -17,8 +17,8 @@
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
-
-<br>
+--->
+ 
 <br>
 
 ## 📝 Introduction
