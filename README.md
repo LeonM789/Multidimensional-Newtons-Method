@@ -69,12 +69,13 @@ Jacobian matrix file:
 The repository includes an example function in the `rosenbrock.m` file. The function is the so called <a href="https://en.wikipedia.org/wiki/Rosenbrock_function" target="_blank">Rosenbrock function</b></u></a>
 
 <br>
-
+<!---
 ## 🧡 You may also like...
 
 - [FlappyBird AI](https://github.com/LeonM789/FlappyBirdAI.git) - A neural network in Python
 
 <br>
+--->
 
 ## ⚖️ License
 
